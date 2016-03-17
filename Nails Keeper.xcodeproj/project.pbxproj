@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		228EA20E1C9A0FCA008DAC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA20D1C9A0FCA008DAC59 /* AppDelegate.swift */; };
+		228EA2131C9A0FCA008DAC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228EA2111C9A0FCA008DAC59 /* Main.storyboard */; };
+		228EA2161C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2141C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld */; };
+		228EA2181C9A0FCA008DAC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228EA2171C9A0FCA008DAC59 /* Assets.xcassets */; };
+		228EA21B1C9A0FCA008DAC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228EA2191C9A0FCA008DAC59 /* LaunchScreen.storyboard */; };
+		228EA2261C9A0FCA008DAC59 /* Nails_KeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2251C9A0FCA008DAC59 /* Nails_KeeperTests.swift */; };
+		228EA2311C9A0FCA008DAC59 /* Nails_KeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2301C9A0FCA008DAC59 /* Nails_KeeperUITests.swift */; };
+		228EA2401C9A1435008DAC59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA23F1C9A1435008DAC59 /* HomeViewController.swift */; };
+		228EA2421C9A14A0008DAC59 /* WeekReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2411C9A14A0008DAC59 /* WeekReportViewController.swift */; };
+		228EA2441C9A14EB008DAC59 /* DateReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2431C9A14EB008DAC59 /* DateReportViewController.swift */; };
+		228EA2461C9A1511008DAC59 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2451C9A1511008DAC59 /* SettingViewController.swift */; };
+		228EA2481C9A365D008DAC59 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2471C9A365D008DAC59 /* HomeTableViewCell.swift */; };
+		228EA2511C9A3C66008DAC59 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA24F1C9A3C66008DAC59 /* Transaction.swift */; };
+		228EA2531C9A4078008DAC59 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2521C9A4078008DAC59 /* TransactionModel.swift */; };
+		228EA2551C9A51E3008DAC59 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2541C9A51E3008DAC59 /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		228EA2221C9A0FCA008DAC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228EA2021C9A0FCA008DAC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228EA2091C9A0FCA008DAC59;
+			remoteInfo = "Nails Keeper";
+		};
+		228EA22D1C9A0FCA008DAC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228EA2021C9A0FCA008DAC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228EA2091C9A0FCA008DAC59;
+			remoteInfo = "Nails Keeper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		228EA20A1C9A0FCA008DAC59 /* Nails Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nails Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228EA20D1C9A0FCA008DAC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		228EA2121C9A0FCA008DAC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		228EA2151C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nails_Keeper.xcdatamodel; sourceTree = "<group>"; };
+		228EA2171C9A0FCA008DAC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		228EA21A1C9A0FCA008DAC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		228EA21C1C9A0FCA008DAC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228EA2211C9A0FCA008DAC59 /* Nails KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nails KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228EA2251C9A0FCA008DAC59 /* Nails_KeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nails_KeeperTests.swift; sourceTree = "<group>"; };
+		228EA2271C9A0FCA008DAC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228EA22C1C9A0FCA008DAC59 /* Nails KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nails KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228EA2301C9A0FCA008DAC59 /* Nails_KeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nails_KeeperUITests.swift; sourceTree = "<group>"; };
+		228EA2321C9A0FCA008DAC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228EA23F1C9A1435008DAC59 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		228EA2411C9A14A0008DAC59 /* WeekReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekReportViewController.swift; sourceTree = "<group>"; };
+		228EA2431C9A14EB008DAC59 /* DateReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateReportViewController.swift; sourceTree = "<group>"; };
+		228EA2451C9A1511008DAC59 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		228EA2471C9A365D008DAC59 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		228EA24F1C9A3C66008DAC59 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = ../Transaction.swift; sourceTree = "<group>"; };
+		228EA2521C9A4078008DAC59 /* TransactionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		228EA2541C9A51E3008DAC59 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228EA2071C9A0FCA008DAC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228EA21E1C9A0FCA008DAC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228EA2291C9A0FCA008DAC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228EA2011C9A0FCA008DAC59 = {
+			isa = PBXGroup;
+			children = (
+				228EA20C1C9A0FCA008DAC59 /* Nails Keeper */,
+				228EA2241C9A0FCA008DAC59 /* Nails KeeperTests */,
+				228EA22F1C9A0FCA008DAC59 /* Nails KeeperUITests */,
+				228EA20B1C9A0FCA008DAC59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		228EA20B1C9A0FCA008DAC59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228EA20A1C9A0FCA008DAC59 /* Nails Keeper.app */,
+				228EA2211C9A0FCA008DAC59 /* Nails KeeperTests.xctest */,
+				228EA22C1C9A0FCA008DAC59 /* Nails KeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228EA20C1C9A0FCA008DAC59 /* Nails Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				228EA24D1C9A3ACF008DAC59 /* Model */,
+				228EA23E1C9A1366008DAC59 /* Controllers */,
+				228EA20D1C9A0FCA008DAC59 /* AppDelegate.swift */,
+				228EA2111C9A0FCA008DAC59 /* Main.storyboard */,
+				228EA2171C9A0FCA008DAC59 /* Assets.xcassets */,
+				228EA2191C9A0FCA008DAC59 /* LaunchScreen.storyboard */,
+				228EA21C1C9A0FCA008DAC59 /* Info.plist */,
+				228EA2141C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld */,
+			);
+			path = "Nails Keeper";
+			sourceTree = "<group>";
+		};
+		228EA2241C9A0FCA008DAC59 /* Nails KeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				228EA2251C9A0FCA008DAC59 /* Nails_KeeperTests.swift */,
+				228EA2271C9A0FCA008DAC59 /* Info.plist */,
+			);
+			path = "Nails KeeperTests";
+			sourceTree = "<group>";
+		};
+		228EA22F1C9A0FCA008DAC59 /* Nails KeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				228EA2301C9A0FCA008DAC59 /* Nails_KeeperUITests.swift */,
+				228EA2321C9A0FCA008DAC59 /* Info.plist */,
+			);
+			path = "Nails KeeperUITests";
+			sourceTree = "<group>";
+		};
+		228EA23E1C9A1366008DAC59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				228EA23F1C9A1435008DAC59 /* HomeViewController.swift */,
+				228EA2411C9A14A0008DAC59 /* WeekReportViewController.swift */,
+				228EA2431C9A14EB008DAC59 /* DateReportViewController.swift */,
+				228EA2451C9A1511008DAC59 /* SettingViewController.swift */,
+				228EA2471C9A365D008DAC59 /* HomeTableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		228EA24D1C9A3ACF008DAC59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				228EA24F1C9A3C66008DAC59 /* Transaction.swift */,
+				228EA2521C9A4078008DAC59 /* TransactionModel.swift */,
+				228EA2541C9A51E3008DAC59 /* Common.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228EA2091C9A0FCA008DAC59 /* Nails Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228EA2351C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails Keeper" */;
+			buildPhases = (
+				228EA2061C9A0FCA008DAC59 /* Sources */,
+				228EA2071C9A0FCA008DAC59 /* Frameworks */,
+				228EA2081C9A0FCA008DAC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nails Keeper";
+			productName = "Nails Keeper";
+			productReference = 228EA20A1C9A0FCA008DAC59 /* Nails Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		228EA2201C9A0FCA008DAC59 /* Nails KeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228EA2381C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails KeeperTests" */;
+			buildPhases = (
+				228EA21D1C9A0FCA008DAC59 /* Sources */,
+				228EA21E1C9A0FCA008DAC59 /* Frameworks */,
+				228EA21F1C9A0FCA008DAC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228EA2231C9A0FCA008DAC59 /* PBXTargetDependency */,
+			);
+			name = "Nails KeeperTests";
+			productName = "Nails KeeperTests";
+			productReference = 228EA2211C9A0FCA008DAC59 /* Nails KeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		228EA22B1C9A0FCA008DAC59 /* Nails KeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228EA23B1C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails KeeperUITests" */;
+			buildPhases = (
+				228EA2281C9A0FCA008DAC59 /* Sources */,
+				228EA2291C9A0FCA008DAC59 /* Frameworks */,
+				228EA22A1C9A0FCA008DAC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228EA22E1C9A0FCA008DAC59 /* PBXTargetDependency */,
+			);
+			name = "Nails KeeperUITests";
+			productName = "Nails KeeperUITests";
+			productReference = 228EA22C1C9A0FCA008DAC59 /* Nails KeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228EA2021C9A0FCA008DAC59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "TIM NGUYEN";
+				TargetAttributes = {
+					228EA2091C9A0FCA008DAC59 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8DYGY6T24H;
+					};
+					228EA2201C9A0FCA008DAC59 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8DYGY6T24H;
+						TestTargetID = 228EA2091C9A0FCA008DAC59;
+					};
+					228EA22B1C9A0FCA008DAC59 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8DYGY6T24H;
+						TestTargetID = 228EA2091C9A0FCA008DAC59;
+					};
+				};
+			};
+			buildConfigurationList = 228EA2051C9A0FCA008DAC59 /* Build configuration list for PBXProject "Nails Keeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228EA2011C9A0FCA008DAC59;
+			productRefGroup = 228EA20B1C9A0FCA008DAC59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228EA2091C9A0FCA008DAC59 /* Nails Keeper */,
+				228EA2201C9A0FCA008DAC59 /* Nails KeeperTests */,
+				228EA22B1C9A0FCA008DAC59 /* Nails KeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228EA2081C9A0FCA008DAC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228EA21B1C9A0FCA008DAC59 /* LaunchScreen.storyboard in Resources */,
+				228EA2181C9A0FCA008DAC59 /* Assets.xcassets in Resources */,
+				228EA2131C9A0FCA008DAC59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228EA21F1C9A0FCA008DAC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228EA22A1C9A0FCA008DAC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228EA2061C9A0FCA008DAC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228EA2531C9A4078008DAC59 /* TransactionModel.swift in Sources */,
+				228EA2421C9A14A0008DAC59 /* WeekReportViewController.swift in Sources */,
+				228EA20E1C9A0FCA008DAC59 /* AppDelegate.swift in Sources */,
+				228EA2481C9A365D008DAC59 /* HomeTableViewCell.swift in Sources */,
+				228EA2441C9A14EB008DAC59 /* DateReportViewController.swift in Sources */,
+				228EA2161C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld in Sources */,
+				228EA2401C9A1435008DAC59 /* HomeViewController.swift in Sources */,
+				228EA2461C9A1511008DAC59 /* SettingViewController.swift in Sources */,
+				228EA2551C9A51E3008DAC59 /* Common.swift in Sources */,
+				228EA2511C9A3C66008DAC59 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228EA21D1C9A0FCA008DAC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228EA2261C9A0FCA008DAC59 /* Nails_KeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228EA2281C9A0FCA008DAC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228EA2311C9A0FCA008DAC59 /* Nails_KeeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		228EA2231C9A0FCA008DAC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 228EA2091C9A0FCA008DAC59 /* Nails Keeper */;
+			targetProxy = 228EA2221C9A0FCA008DAC59 /* PBXContainerItemProxy */;
+		};
+		228EA22E1C9A0FCA008DAC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 228EA2091C9A0FCA008DAC59 /* Nails Keeper */;
+			targetProxy = 228EA22D1C9A0FCA008DAC59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		228EA2111C9A0FCA008DAC59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228EA2121C9A0FCA008DAC59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		228EA2191C9A0FCA008DAC59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228EA21A1C9A0FCA008DAC59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228EA2331C9A0FCA008DAC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		228EA2341C9A0FCA008DAC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228EA2361C9A0FCA008DAC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nails Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Nails-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		228EA2371C9A0FCA008DAC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nails Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Nails-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		228EA2391C9A0FCA008DAC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nails KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Nails-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nails Keeper.app/Nails Keeper";
+			};
+			name = Debug;
+		};
+		228EA23A1C9A0FCA008DAC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nails KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Nails-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nails Keeper.app/Nails Keeper";
+			};
+			name = Release;
+		};
+		228EA23C1C9A0FCA008DAC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nails KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Nails-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nails Keeper";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		228EA23D1C9A0FCA008DAC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nails KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Nails-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nails Keeper";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228EA2051C9A0FCA008DAC59 /* Build configuration list for PBXProject "Nails Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228EA2331C9A0FCA008DAC59 /* Debug */,
+				228EA2341C9A0FCA008DAC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228EA2351C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228EA2361C9A0FCA008DAC59 /* Debug */,
+				228EA2371C9A0FCA008DAC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		228EA2381C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails KeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228EA2391C9A0FCA008DAC59 /* Debug */,
+				228EA23A1C9A0FCA008DAC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		228EA23B1C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails KeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228EA23C1C9A0FCA008DAC59 /* Debug */,
+				228EA23D1C9A0FCA008DAC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		228EA2141C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				228EA2151C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodel */,
+			);
+			currentVersion = 228EA2151C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodel */;
+			path = Nails_Keeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 228EA2021C9A0FCA008DAC59 /* Project object */;
+}
