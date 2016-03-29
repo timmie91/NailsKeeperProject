@@ -10,6 +10,15 @@ import UIKit
 
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+<<<<<<< HEAD
+    @IBOutlet weak var RecentlyAddedTableView: UITableView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+=======
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var RecentlyAddedTableView: UITableView!
     
@@ -56,6 +65,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func updateUI() {
         dateLabel.text = formatter.stringFromDate(theDate)
     }
+>>>>>>> master
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -76,6 +86,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         return cell;
     }
+<<<<<<< HEAD
+=======
     
     var blurView:UIVisualEffectView!
     func blur() {
@@ -189,6 +201,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.datePicker.date = currentCalendar.dateByAddingComponents(dateComponents, toDate: self.datePicker.date, options: [])!
     }
 
+>>>>>>> master
 
     /*
     // MARK: - Navigation
