@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		1E5A80DB1CA8668700E60A83 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A80DA1CA8668600E60A83 /* SettingTableViewController.swift */; };
 		1EE3ED5C1CA920290067D02F /* CommissionSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3ED5B1CA920280067D02F /* CommissionSettingTableViewController.swift */; };
 		1EE3ED5E1CA92C530067D02F /* LanguageSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3ED5D1CA92C520067D02F /* LanguageSettingTableViewController.swift */; };
@@ -14,6 +15,8 @@
 		1EE3ED621CAA7A400067D02F /* Film-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EE3ED611CAA7A400067D02F /* Film-52.png */; };
 		1EE3ED661CAA8B170067D02F /* Twitter Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EE3ED651CAA8B170067D02F /* Twitter Filled-50.png */; };
 		1EE3ED6A1CAA8C3F0067D02F /* Facebook-48-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EE3ED691CAA8C3F0067D02F /* Facebook-48-2.png */; };
+=======
+>>>>>>> master
 		228EA20E1C9A0FCA008DAC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA20D1C9A0FCA008DAC59 /* AppDelegate.swift */; };
 		228EA2131C9A0FCA008DAC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228EA2111C9A0FCA008DAC59 /* Main.storyboard */; };
 		228EA2161C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2141C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld */; };
@@ -24,6 +27,10 @@
 		228EA2401C9A1435008DAC59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA23F1C9A1435008DAC59 /* HomeViewController.swift */; };
 		228EA2421C9A14A0008DAC59 /* WeekReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2411C9A14A0008DAC59 /* WeekReportViewController.swift */; };
 		228EA2441C9A14EB008DAC59 /* DateReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2431C9A14EB008DAC59 /* DateReportViewController.swift */; };
+<<<<<<< HEAD
+=======
+		228EA2461C9A1511008DAC59 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2451C9A1511008DAC59 /* SettingViewController.swift */; };
+>>>>>>> master
 		228EA2481C9A365D008DAC59 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2471C9A365D008DAC59 /* HomeTableViewCell.swift */; };
 		228EA2511C9A3C66008DAC59 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA24F1C9A3C66008DAC59 /* Transaction.swift */; };
 		228EA2531C9A4078008DAC59 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228EA2521C9A4078008DAC59 /* TransactionModel.swift */; };
@@ -48,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		1E5A80DA1CA8668600E60A83 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		1EE3ED5B1CA920280067D02F /* CommissionSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommissionSettingTableViewController.swift; sourceTree = "<group>"; };
 		1EE3ED5D1CA92C520067D02F /* LanguageSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSettingTableViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +63,8 @@
 		1EE3ED611CAA7A400067D02F /* Film-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Film-52.png"; sourceTree = "<group>"; };
 		1EE3ED651CAA8B170067D02F /* Twitter Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter Filled-50.png"; sourceTree = "<group>"; };
 		1EE3ED691CAA8C3F0067D02F /* Facebook-48-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-48-2.png"; sourceTree = "<group>"; };
+=======
+>>>>>>> master
 		228EA20A1C9A0FCA008DAC59 /* Nails Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nails Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		228EA20D1C9A0FCA008DAC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228EA2121C9A0FCA008DAC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +81,10 @@
 		228EA23F1C9A1435008DAC59 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		228EA2411C9A14A0008DAC59 /* WeekReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekReportViewController.swift; sourceTree = "<group>"; };
 		228EA2431C9A14EB008DAC59 /* DateReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateReportViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		228EA2451C9A1511008DAC59 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+>>>>>>> master
 		228EA2471C9A365D008DAC59 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		228EA24F1C9A3C66008DAC59 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = ../Transaction.swift; sourceTree = "<group>"; };
 		228EA2521C9A4078008DAC59 /* TransactionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
@@ -129,10 +143,13 @@
 				228EA23E1C9A1366008DAC59 /* Controllers */,
 				228EA20D1C9A0FCA008DAC59 /* AppDelegate.swift */,
 				228EA2111C9A0FCA008DAC59 /* Main.storyboard */,
+<<<<<<< HEAD
 				1EE3ED5F1CAA7A230067D02F /* Windows8 Tablet Filled-50.png */,
 				1EE3ED651CAA8B170067D02F /* Twitter Filled-50.png */,
 				1EE3ED691CAA8C3F0067D02F /* Facebook-48-2.png */,
 				1EE3ED611CAA7A400067D02F /* Film-52.png */,
+=======
+>>>>>>> master
 				228EA2171C9A0FCA008DAC59 /* Assets.xcassets */,
 				228EA2191C9A0FCA008DAC59 /* LaunchScreen.storyboard */,
 				228EA21C1C9A0FCA008DAC59 /* Info.plist */,
@@ -165,10 +182,15 @@
 				228EA23F1C9A1435008DAC59 /* HomeViewController.swift */,
 				228EA2411C9A14A0008DAC59 /* WeekReportViewController.swift */,
 				228EA2431C9A14EB008DAC59 /* DateReportViewController.swift */,
+<<<<<<< HEAD
 				228EA2471C9A365D008DAC59 /* HomeTableViewCell.swift */,
 				1E5A80DA1CA8668600E60A83 /* SettingTableViewController.swift */,
 				1EE3ED5B1CA920280067D02F /* CommissionSettingTableViewController.swift */,
 				1EE3ED5D1CA92C520067D02F /* LanguageSettingTableViewController.swift */,
+=======
+				228EA2451C9A1511008DAC59 /* SettingViewController.swift */,
+				228EA2471C9A365D008DAC59 /* HomeTableViewCell.swift */,
+>>>>>>> master
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -291,12 +313,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				228EA21B1C9A0FCA008DAC59 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
 				1EE3ED601CAA7A230067D02F /* Windows8 Tablet Filled-50.png in Resources */,
 				1EE3ED621CAA7A400067D02F /* Film-52.png in Resources */,
 				1EE3ED661CAA8B170067D02F /* Twitter Filled-50.png in Resources */,
 				228EA2181C9A0FCA008DAC59 /* Assets.xcassets in Resources */,
 				228EA2131C9A0FCA008DAC59 /* Main.storyboard in Resources */,
 				1EE3ED6A1CAA8C3F0067D02F /* Facebook-48-2.png in Resources */,
+=======
+				228EA2181C9A0FCA008DAC59 /* Assets.xcassets in Resources */,
+				228EA2131C9A0FCA008DAC59 /* Main.storyboard in Resources */,
+>>>>>>> master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,16 +348,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				1EE3ED5E1CA92C530067D02F /* LanguageSettingTableViewController.swift in Sources */,
 				1EE3ED5C1CA920290067D02F /* CommissionSettingTableViewController.swift in Sources */,
+=======
+>>>>>>> master
 				228EA2531C9A4078008DAC59 /* TransactionModel.swift in Sources */,
 				228EA2421C9A14A0008DAC59 /* WeekReportViewController.swift in Sources */,
 				228EA20E1C9A0FCA008DAC59 /* AppDelegate.swift in Sources */,
 				228EA2481C9A365D008DAC59 /* HomeTableViewCell.swift in Sources */,
+<<<<<<< HEAD
 				1E5A80DB1CA8668700E60A83 /* SettingTableViewController.swift in Sources */,
 				228EA2441C9A14EB008DAC59 /* DateReportViewController.swift in Sources */,
 				228EA2161C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld in Sources */,
 				228EA2401C9A1435008DAC59 /* HomeViewController.swift in Sources */,
+=======
+				228EA2441C9A14EB008DAC59 /* DateReportViewController.swift in Sources */,
+				228EA2161C9A0FCA008DAC59 /* Nails_Keeper.xcdatamodeld in Sources */,
+				228EA2401C9A1435008DAC59 /* HomeViewController.swift in Sources */,
+				228EA2461C9A1511008DAC59 /* SettingViewController.swift in Sources */,
+>>>>>>> master
 				228EA2551C9A51E3008DAC59 /* Common.swift in Sources */,
 				228EA2511C9A3C66008DAC59 /* Transaction.swift in Sources */,
 			);
@@ -557,7 +594,10 @@
 				228EA2371C9A0FCA008DAC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> master
 		};
 		228EA2381C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails KeeperTests" */ = {
 			isa = XCConfigurationList;
@@ -566,7 +606,10 @@
 				228EA23A1C9A0FCA008DAC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> master
 		};
 		228EA23B1C9A0FCA008DAC59 /* Build configuration list for PBXNativeTarget "Nails KeeperUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,7 +618,10 @@
 				228EA23D1C9A0FCA008DAC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> master
 		};
 /* End XCConfigurationList section */
 

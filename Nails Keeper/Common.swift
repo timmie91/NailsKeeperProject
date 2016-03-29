@@ -15,7 +15,10 @@ extension NSDate {
         return comp.weekday
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 class Common{
     
     func getThisMonday()->NSDate{
@@ -80,6 +83,7 @@ class Common{
 
     }
     
+<<<<<<< HEAD
      func getStringFormatCommission( commisson: Double ) -> String{
         if(commisson == 1.0){
             return "10-0"
@@ -118,6 +122,8 @@ class Common{
     
     
     
+=======
+>>>>>>> master
 }
 
     

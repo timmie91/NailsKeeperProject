@@ -24,12 +24,12 @@
                   moduleName = "Nails Keeper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Tim/Desktop/Nails%20Keeper/Nails%20Keeper/HomeViewController.swift"
-                  timestampString = "479870152.475886"
+                  timestampString = "480971715.399112"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "19">
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -39,12 +39,12 @@
                   moduleName = "Nails Keeper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Tim/Desktop/Nails%20Keeper/Nails%20Keeper/HomeViewController.swift"
-                  timestampString = "479870152.476097"
+                  timestampString = "480971715.399454"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "67">
+                  offsetFromSymbolStart = "60">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -54,12 +54,12 @@
                   moduleName = "Nails Keeper"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Tim/Desktop/Nails%20Keeper/Nails%20Keeper/HomeViewController.swift"
-                  timestampString = "479870152.476235"
+                  timestampString = "480971715.399693"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "27">
+                  offsetFromSymbolStart = "19">
                </Location>
             </Locations>
          </BreakpointContent>
