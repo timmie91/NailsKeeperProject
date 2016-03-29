@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83R-Ic-u1D">
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83R-Ic-u1D">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Home" id="fk8-AG-Mox"/>
@@ -86,11 +86,21 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="ZlO-Ho-xys"/>
                                 </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tje-yc-Lg5">
+                                <rect key="frame" x="7" y="51" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="83R-Ic-u1D" secondAttribute="trailing" constant="-20" id="2Ml-AM-hhc"/>
+                            <constraint firstItem="83R-Ic-u1D" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="DYk-hL-3Zf"/>
                             <constraint firstItem="Syh-Cp-4jA" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" id="MrK-uS-foN"/>
                             <constraint firstItem="Syh-Cp-4jA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="XFl-RV-Wii"/>
+                            <constraint firstItem="tje-yc-Lg5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="Xgz-OM-JI8"/>
+                            <constraint firstItem="83R-Ic-u1D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="bXn-oQ-Ejy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Syh-Cp-4jA" secondAttribute="trailing" constant="-20" id="cEc-Lx-ChL"/>
                         </constraints>
                     </view>
@@ -98,6 +108,7 @@
                     <navigationItem key="navigationItem" id="0ES-Fk-yV6"/>
                     <connections>
                         <outlet property="RecentlyAddedTableView" destination="Syh-Cp-4jA" id="Fgx-Lx-5O3"/>
+                        <outlet property="dateLabel" destination="tje-yc-Lg5" id="v3N-ln-2ZQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
